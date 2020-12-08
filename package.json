@@ -1,0 +1,30 @@
+{
+  "name": "christmas-list",
+  "version": "1.0.0",
+  "description": "My christmas list",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Troy Bost",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.0",
+    "bootstrap": "^4.5.3",
+    "bootswatch": "^4.5.3",
+    "config": "^3.3.2",
+    "cookie-parser": "^1.4.5",
+    "debug": "^4.2.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-handlebars": "^5.2.0",
+    "jquery": "^3.5.1",
+    "jsonwebtoken": "^8.5.1",
+    "knex": "^0.21.12",
+    "lodash": "^4.17.20",
+    "moment": "^2.29.1",
+    "morgan": "^1.10.0",
+    "mysql": "^2.18.1"
+  }
+}
